@@ -13,3 +13,13 @@
 .theme-dark .header__rec {
   display: block;
 }
+
+.theme-dark .title-decor {
+  color: #000028;
+}
+
+@media (prefers-color-scheme: dark) {
+  .title-decor {
+    color: #000028;
+  }
+}
