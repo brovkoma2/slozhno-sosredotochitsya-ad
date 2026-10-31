@@ -356,10 +356,6 @@
   .footer__title {
     font-size: var(--font-size-title-tablet);
   }
-
-  .section:last-of-type {
-    gap: var(--gap-m);
-  }
 }
 
 @media (min-width: 1024px) {
@@ -381,7 +377,7 @@
 
   .section {
     grid-template-columns: 1fr 2fr;
-    gap: 10px
+    gap: 10px;
   }
   
   .section__cards_three-columns {
